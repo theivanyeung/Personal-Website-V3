@@ -17,12 +17,12 @@ import Projects from "../components/projects/Projects";
 import About from "../components/about/About";
 
 import {
-  visualDisplayAnimation,
-  minimapAnimation,
-  startupsAnimation,
-  productsAnimation,
-  projectsAnimation,
-  aboutAnimation,
+  useVisualDisplayAnimation,
+  useMinimapAnimation,
+  useStartupsAnimation,
+  useProductsAnimation,
+  useProjectsAnimation,
+  useAboutAnimation,
 } from "../components/animations";
 
 import {
@@ -44,13 +44,13 @@ const Home = () => {
   const visualDisplayControls = useAnimation();
   const secondVisualDisplayControls = useAnimation();
 
-  visualDisplayAnimation(visibleSection, secondVisualDisplayControls);
+  useVisualDisplayAnimation(visibleSection, secondVisualDisplayControls);
 
   // Minimap Animation
 
   const minimapControls = useAnimation();
 
-  minimapAnimation(visibleSection, visualDisplayControls, minimapControls);
+  useMinimapAnimation(visibleSection, visualDisplayControls, minimapControls);
 
   // Startups Animation
 
@@ -58,7 +58,7 @@ const Home = () => {
   const secondStartupsControl = useAnimation();
   const thirdStartupsControl = useAnimation();
 
-  startupsAnimation(
+  useStartupsAnimation(
     visibleSection,
     startupsControl,
     secondStartupsControl,
@@ -71,7 +71,7 @@ const Home = () => {
   const secondProductsControl = useAnimation();
   const thirdProductsControl = useAnimation();
 
-  productsAnimation(
+  useProductsAnimation(
     visibleSection,
     productsControl,
     secondProductsControl,
@@ -84,7 +84,7 @@ const Home = () => {
   const secondProjectsControl = useAnimation();
   const thirdProjectsControl = useAnimation();
 
-  projectsAnimation(
+  useProjectsAnimation(
     visibleSection,
     projectsControl,
     secondProjectsControl,
@@ -97,7 +97,7 @@ const Home = () => {
   const secondAboutControl = useAnimation();
   const thirdAboutControl = useAnimation();
 
-  aboutAnimation(
+  useAboutAnimation(
     visibleSection,
     aboutControl,
     secondAboutControl,

@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export const visualDisplayAnimation = (
+export const useVisualDisplayAnimation = (
   visibleSection,
   secondVisualDisplayControls
 ) => {
@@ -20,7 +20,7 @@ export const visualDisplayAnimation = (
   }, [secondVisualDisplayControls, visibleSection]);
 };
 
-export const minimapAnimation = (
+export const useMinimapAnimation = (
   visibleSection,
   visualDisplayControls,
   minimapControls
@@ -89,7 +89,7 @@ const thirdRetract = {
   transition: { delay: 0.0, duration: 0.2 },
 };
 
-export const startupsAnimation = (
+export const useStartupsAnimation = (
   visibleSection,
   startupsControl,
   secondStartupsControl,
@@ -108,7 +108,7 @@ export const startupsAnimation = (
   }, [startupsControl, visibleSection]);
 };
 
-export const productsAnimation = (
+export const useProductsAnimation = (
   visibleSection,
   productsControl,
   secondProductsControl,
@@ -127,7 +127,7 @@ export const productsAnimation = (
   }, [productsControl, visibleSection]);
 };
 
-export const projectsAnimation = (
+export const useProjectsAnimation = (
   visibleSection,
   projectsControl,
   secondProjectsControl,
@@ -146,7 +146,7 @@ export const projectsAnimation = (
   }, [projectsControl, visibleSection]);
 };
 
-export const aboutAnimation = (
+export const useAboutAnimation = (
   visibleSection,
   aboutControl,
   secondAboutControl,
