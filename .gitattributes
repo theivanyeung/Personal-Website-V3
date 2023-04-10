@@ -1,4 +1,4 @@
 public/images/BL_proxy/output.mp4/proxy_100.avi filter=lfs diff=lfs merge=lfs -text
 public/images/output.mp4 filter=lfs diff=lfs merge=lfs -text
 public/images/snn-background.mp4 filter=lfs diff=lfs merge=lfs -text
-
+/images/snn-background.mp4 filter=lfs diff=lfs merge=lfs -text
