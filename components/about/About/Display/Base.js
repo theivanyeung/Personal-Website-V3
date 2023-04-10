@@ -105,7 +105,12 @@ const List = (props) => {
             gap={"10px"}
           >
             {item.image ? (
-              <Image src={item.image} width={20} height={20} />
+              <Image
+                src={item.image}
+                alt={"Social Icon"}
+                width={20}
+                height={20}
+              />
             ) : (
               <LinkIcon boxSize={"10px"} color={"#FFFFFF"} />
             )}

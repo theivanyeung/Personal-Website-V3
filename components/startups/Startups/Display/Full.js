@@ -90,6 +90,7 @@ const StartupsDisplayFull = (props) => {
           ) : (
             <Image
               src={startup.image}
+              alt={"Startup Image"}
               width={1920}
               height={1080}
               layout="responsive"

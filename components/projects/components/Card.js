@@ -33,6 +33,7 @@ const ProjectsCard = (props) => {
         >
           <Image
             src={project.image}
+            alt={"Project Image"}
             width={1920}
             height={1080}
             layout="responsive"

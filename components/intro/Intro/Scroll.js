@@ -17,7 +17,7 @@ const IntroScroll = () => {
       <div className="imageContainer" onClick={scrollDown100vh}>
         <Image
           src="/images/scroll-arrow.png"
-          alt="Your image description"
+          alt="Scroll Arrow"
           width={133.5}
           height={50}
         />

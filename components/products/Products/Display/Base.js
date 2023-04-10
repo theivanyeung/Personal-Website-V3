@@ -42,6 +42,7 @@ const ProductsDisplayBase = (props) => {
         >
           <Image
             src={"/images/tars-ai-interface.gif"}
+            alt={"TARS AI Interface"}
             width={1920}
             height={1080}
             layout="responsive"

@@ -26,6 +26,7 @@ const VisualDisplay = (props) => {
         >
           <Image
             src={"/images/projector.png"}
+            alt={"Projector"}
             width={438}
             height={2568}
             layout="responsive"
