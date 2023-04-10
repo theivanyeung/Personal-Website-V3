@@ -23,7 +23,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider theme={customTheme}>
       <GlobalHead />
-      <VideoBackground videoSrc={"/images/snn-background.mp4"} />
+      <VideoBackground
+        videoSrc={
+          "https://storage.googleapis.com/ivan-yeung-personal/snn-background.mp4"
+        }
+      />
       <OpticalCircle />
       <Component {...pageProps} />
     </ChakraProvider>
