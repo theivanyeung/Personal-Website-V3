@@ -43,6 +43,7 @@ const ProjectsCard = (props) => {
         <Box w={"100%"} borderRadius={"12px"} overflow={"hidden"}>
           <Image
             src={project.image}
+            alt={"Project Image"}
             width={1920}
             height={1080}
             layout="responsive"
