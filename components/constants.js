@@ -172,6 +172,11 @@ export const SocialList = [
     title: "@theivanyeung",
     link: "https://github.com/theivanyeung",
   },
+  {
+    image: "/images/icons/resume.png",
+    title: "CS Resume (2023)",
+    link: "/resume.pdf",
+  },
 ];
 
 export const OtherLinkList = [
