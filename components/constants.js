@@ -160,7 +160,7 @@ export const SocialList = [
   {
     image: "/images/icons/linkedin.png",
     title: "Ivan Yeung",
-    link: "https://www.linkedin.com/in/ivan-yeung-79bb76212/",
+    link: "https://www.linkedin.com/in/theivanyeung/",
   },
   {
     image: "/images/icons/twitter.png",
