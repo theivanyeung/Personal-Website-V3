@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 import ProductsDisplay from "./Products/Display";
 
-import { TARS_TITLE } from "../content";
+import { PRODUCT_TITLE } from "../content";
 
 const Products = (props) => {
   const { productsControl, secondProductsControl, thirdProductsControl } =
@@ -65,7 +65,7 @@ const Products = (props) => {
                 letterSpacing={"0.1em"}
                 color={"#FFFFFF"}
               >
-                {TARS_TITLE}
+                {PRODUCT_TITLE}
               </Heading>
               <Box w={"95%"} h={"2px"} bgColor={"#9BE7FF"} />
               <ProductsDisplay />
