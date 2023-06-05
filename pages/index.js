@@ -208,6 +208,17 @@ const Home = () => {
           {finishedIntro && (
             <>
               <InView
+                id="products"
+                threshold={0.5}
+                onChange={(inView) => inView && setVisibleSection("Vigama")}
+              >
+                <Products
+                  productsControl={productsControl}
+                  secondProductsControl={secondProductsControl}
+                  thirdProductsControl={thirdProductsControl}
+                />
+              </InView>
+              <InView
                 id="startups"
                 threshold={0.5}
                 onChange={(inView) => inView && setVisibleSection("Startups")}
@@ -216,17 +227,6 @@ const Home = () => {
                   startupsControl={startupsControl}
                   secondStartupsControl={secondStartupsControl}
                   thirdStartupsControl={thirdStartupsControl}
-                />
-              </InView>
-              <InView
-                id="products"
-                threshold={0.5}
-                onChange={(inView) => inView && setVisibleSection("Products")}
-              >
-                <Products
-                  productsControl={productsControl}
-                  secondProductsControl={secondProductsControl}
-                  thirdProductsControl={thirdProductsControl}
                 />
               </InView>
               <InView
@@ -302,6 +302,17 @@ const Home = () => {
         {finishedIntro && (
           <>
             <InView
+              id="products"
+              threshold={0.5}
+              onChange={(inView) => inView && setVisibleSection("Vigama")}
+            >
+              <Products
+                productsControl={productsControl}
+                secondProductsControl={secondProductsControl}
+                thirdProductsControl={thirdProductsControl}
+              />
+            </InView>
+            <InView
               id="startups"
               threshold={0.5}
               onChange={(inView) => inView && setVisibleSection("Startups")}
@@ -310,17 +321,6 @@ const Home = () => {
                 startupsControl={startupsControl}
                 secondStartupsControl={secondStartupsControl}
                 thirdStartupsControl={thirdStartupsControl}
-              />
-            </InView>
-            <InView
-              id="products"
-              threshold={0.5}
-              onChange={(inView) => inView && setVisibleSection("Products")}
-            >
-              <Products
-                productsControl={productsControl}
-                secondProductsControl={secondProductsControl}
-                thirdProductsControl={thirdProductsControl}
               />
             </InView>
             <InView

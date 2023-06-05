@@ -8,8 +8,8 @@ const Minimap = (props) => {
   const { visibleSection, minimapControls } = props;
 
   const [map, setMap] = useState([
+    { section: "Vigama", visible: false },
     { section: "Startups", visible: false },
-    { section: "Products", visible: false },
     { section: "Projects", visible: false },
     { section: "About Me", visible: false },
   ]);

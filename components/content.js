@@ -31,15 +31,18 @@ export const PRODICITY_DESCRIPTION =
 
 // Products
 
-export const TARS_TITLE = "TARS";
-export const TARS_HEADER = "Personalized AI Assistance";
-export const TARS_DESCRIPTION =
-  "TARS is a personalized AI voice chatbot replicated from the movie Interstellar. Built on top of GPT-4 and fined-tuned with datasets and audio logs collected from the movie, TARS is able to perform the basic tasks listed below.";
-export const TARS_COMMENT = "Contact me to access TARS";
-export const TARS_POINT_ONE = "Hold conversations of all levels and domains";
-export const TARS_POINT_TWO = "Answer questions in all depths of difficulty";
-export const TARS_POINT_THREE =
-  "Possesses a witty, sarcastic, humorous trait to be a better suited companion and assistant.";
+export const PRODUCT_TITLE = "Vigama";
+export const PRODUCT_HEADER = "Personal AI Assistant";
+export const PRODUCT_DESCRIPTION =
+  "Vigama is an AI-powered personal assistant platform that revolutionizes the digital experience with task automation and completion.";
+export const PRODUCT_COMMENT = "Subscribe to our idea!";
+export const PRODUCT_POINT_ONE =
+  "Meet Valara. An adaptive AI assistant that integrates seamlessly with your digital environment, comprehending your habits, preferences, and needs to execute and automate tasks efficiently. With Valara, experience a highly personalized digital assistant that streamlines your workflow like never before!";
+export const PRODUCT_POINT_TWO =
+  "Seamless integration with your digital life. Vigama connects with your favorite apps, services, and tech devices, becoming a central hub that enhances your productivity, organization, and overall life management.";
+export const PRODUCT_POINT_THREE =
+  "Always at your command. Valara is easily accessible and ever-responsive, facilitating communication via text or voice commands. Whether you require assistance with task execution or digital automation, your AI assistant Valara is just a command away.";
+export const PRODUCT_LINK = "https://www.vigama.tech/";
 
 /**
  * Projects

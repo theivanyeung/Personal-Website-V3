@@ -3,9 +3,9 @@ import {
   DREAMMATE_DESCRIPTION,
   PRODICITY_TITLE,
   PRODICITY_DESCRIPTION,
-  TARS_POINT_ONE,
-  TARS_POINT_TWO,
-  TARS_POINT_THREE,
+  PRODUCT_POINT_ONE,
+  PRODUCT_POINT_TWO,
+  PRODUCT_POINT_THREE,
   PRODICITY_PRODUCTIVITY_TITLE,
   PRODICITY_PRODUCTIVITY_DESCRIPTION,
   LANGSWAP_TITLE,
@@ -43,14 +43,14 @@ export const StartupList = [
     title: PRODICITY_TITLE,
     description: PRODICITY_DESCRIPTION,
     image: "/images/prodicity-display.png",
-    website: "https://www.prodicity.io/",
+    website: "https://prodicity.vercel.app/",
   },
 ];
 
-export const TARSPoints = [
-  { icon: ChatIcon, point: TARS_POINT_ONE },
-  { icon: Search2Icon, point: TARS_POINT_TWO },
-  { icon: SunIcon, point: TARS_POINT_THREE },
+export const ProductPoints = [
+  { icon: ChatIcon, point: PRODUCT_POINT_ONE },
+  { icon: Search2Icon, point: PRODUCT_POINT_TWO },
+  { icon: SunIcon, point: PRODUCT_POINT_THREE },
 ];
 
 export const ProjectList = [

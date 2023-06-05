@@ -1,11 +1,28 @@
 import Image from "next/image";
+import { useRouter } from "next/router";
 
-import { Flex, Box, Heading, List, ListItem, ListIcon } from "@chakra-ui/react";
+import {
+  Flex,
+  Box,
+  Heading,
+  List,
+  ListItem,
+  ListIcon,
+  Button,
+  Link,
+} from "@chakra-ui/react";
 
-import { TARS_HEADER, TARS_DESCRIPTION, TARS_COMMENT } from "../../../content";
-import { TARSPoints } from "../../../constants";
+import {
+  PRODUCT_HEADER,
+  PRODUCT_DESCRIPTION,
+  PRODUCT_COMMENT,
+  PRODUCT_LINK,
+} from "../../../content";
+import { ProductPoints } from "../../../constants";
 
 const ProductsDisplayFull = (props) => {
+  const router = useRouter();
+
   return (
     <Flex
       justifyContent={"space-between"}
@@ -49,11 +66,15 @@ const ProductsDisplayFull = (props) => {
             layout="responsive"
           />
         </Box>
-        <Box
+        <Button
           align={"center"}
-          bgColor={"rgba(155, 231, 255, 0.5)"}
+          bg={"rgba(155, 231, 255, 0.5)"}
           padding={"15px"}
           borderRadius={"12px"}
+          _hover={{
+            bg: "linear-gradient(104.37deg, #00E2FF 0%, #DA00FF 100%)",
+          }}
+          onClick={() => router.push(PRODUCT_LINK)}
         >
           <Heading
             fontWeight={"medium"}
@@ -61,9 +82,9 @@ const ProductsDisplayFull = (props) => {
             letterSpacing={"0.1em"}
             color={"#FFFFFF"}
           >
-            {TARS_COMMENT}
+            {PRODUCT_COMMENT}
           </Heading>
-        </Box>
+        </Button>
       </Flex>
       <Flex
         flexDirection={"column"}
@@ -83,7 +104,7 @@ const ProductsDisplayFull = (props) => {
           letterSpacing={"0.1em"}
           color={"#FFFFFF"}
         >
-          {TARS_HEADER}
+          {PRODUCT_HEADER}
         </Heading>
         <Box w={"100%"} h={"1px"} bgColor={"#9BE7FF"} />
         <Heading
@@ -92,10 +113,10 @@ const ProductsDisplayFull = (props) => {
           letterSpacing={"0.1em"}
           color={"#FFFFFF"}
         >
-          {TARS_DESCRIPTION}
+          {PRODUCT_DESCRIPTION}
         </Heading>
         <List spacing={5} w={"100%"}>
-          {TARSPoints.map((item, index) => (
+          {ProductPoints.map((item, index) => (
             <ListItem key={index} display={"flex"}>
               <ListIcon as={item.icon} color={"#9BE7FF"} />
               <Heading

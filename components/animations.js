@@ -115,7 +115,7 @@ export const useProductsAnimation = (
   thirdProductsControl
 ) => {
   useEffect(() => {
-    if (visibleSection === "Products") {
+    if (visibleSection === "Vigama") {
       productsControl.start(firstPresent);
       secondProductsControl.start(secondPresent);
       thirdProductsControl.start(thirdPresent);
