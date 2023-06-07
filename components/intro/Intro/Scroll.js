@@ -1,3 +1,4 @@
+import { Flex, Heading } from "@chakra-ui/react";
 import Image from "next/image";
 
 const IntroScroll = () => {
@@ -13,7 +14,20 @@ const IntroScroll = () => {
   };
 
   return (
-    <>
+    <Flex
+      flexDirection={"column"}
+      justifyContent={"center"}
+      alignItems={"center"}
+      gap={"15px"}
+    >
+      <Heading
+        fontWeight={"medium"}
+        fontSize={"2xl"}
+        letterSpacing={"0.1em"}
+        color={"#FFFFFF"}
+      >
+        Scroll Down
+      </Heading>
       <div className="imageContainer" onClick={scrollDown100vh}>
         <Image
           src="/images/scroll-arrow.png"
@@ -35,7 +49,7 @@ const IntroScroll = () => {
           filter: drop-shadow(0px 0px 10px #ffffff);
         }
       `}</style>
-    </>
+    </Flex>
   );
 };
 
