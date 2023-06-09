@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const VideoBackground = ({ videoSrc }) => {
   return (
     <>
@@ -15,8 +17,8 @@ const VideoBackground = ({ videoSrc }) => {
           position: absolute;
           min-width: 100%;
           min-height: 100%;
-          width: auto;
-          height: auto;
+          width: 100vw;
+          height: 100vh;
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
