@@ -107,7 +107,7 @@ const Home = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setFinishedIntro(true);
-    }, 5000);
+    }, 500);
 
     return () => {
       clearTimeout(timer);
