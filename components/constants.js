@@ -148,7 +148,7 @@ export const InterestList = [
   "Artifical Intelligence & Neuromorphic Engineering",
   "Simulation Theory, Theory of Everything",
   "Social Organization",
-  'Broader communist movement "de-Stalinization", slavic culture, hardbass',
+  "Eastern bloc, slavic culture, hardbass",
 ];
 
 export const SocialList = [
