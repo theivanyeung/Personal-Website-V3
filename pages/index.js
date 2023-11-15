@@ -129,6 +129,7 @@ const Home = () => {
         url={SEO_URL}
         image={SEO_IMAGE}
       />
+
       <Fade in={isOpen}>
         {visibleSection === "Intro" && <Socials />}
         <Flex
