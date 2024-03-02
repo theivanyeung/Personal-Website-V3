@@ -31,15 +31,15 @@ export const PRODICITY_DESCRIPTION =
 
 // Products
 
-export const PRODUCT_TITLE = "Vigama";
+export const PRODUCT_TITLE = "Vesper";
 export const PRODUCT_HEADER = "Personal AI Assistant";
 export const PRODUCT_DESCRIPTION =
-  "Vigama is an AI-powered personal assistant platform that revolutionizes the digital experience with task automation and completion.";
+  "Vesper is an AI-powered personal assistant platform that revolutionizes the digital experience with task automation and completion.";
 export const PRODUCT_COMMENT = "Subscribe to our idea!";
 export const PRODUCT_POINT_ONE =
   "Meet Valara. An adaptive AI assistant that integrates seamlessly with your digital environment, comprehending your habits, preferences, and needs to execute and automate tasks efficiently. With Valara, experience a highly personalized digital assistant that streamlines your workflow like never before!";
 export const PRODUCT_POINT_TWO =
-  "Seamless integration with your digital life. Vigama connects with your favorite apps, services, and tech devices, becoming a central hub that enhances your productivity, organization, and overall life management.";
+  "Seamless integration with your digital life. Vesper connects with your favorite apps, services, and tech devices, becoming a central hub that enhances your productivity, organization, and overall life management.";
 export const PRODUCT_POINT_THREE =
   "Always at your command. Valara is easily accessible and ever-responsive, facilitating communication via text or voice commands. Whether you require assistance with task execution or digital automation, your AI assistant Valara is just a command away.";
 export const PRODUCT_LINK = "https://www.vigama.tech/";

@@ -211,7 +211,7 @@ const Home = () => {
               <InView
                 id="products"
                 threshold={0.5}
-                onChange={(inView) => inView && setVisibleSection("Vigama")}
+                onChange={(inView) => inView && setVisibleSection("Vesper")}
               >
                 <Products
                   productsControl={productsControl}
@@ -305,7 +305,7 @@ const Home = () => {
             <InView
               id="products"
               threshold={0.5}
-              onChange={(inView) => inView && setVisibleSection("Vigama")}
+              onChange={(inView) => inView && setVisibleSection("Vesper")}
             >
               <Products
                 productsControl={productsControl}
