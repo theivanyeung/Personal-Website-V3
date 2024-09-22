@@ -175,7 +175,8 @@ export const SocialList = [
   {
     image: "/images/icons/resume.png",
     title: "CS Resume (2023)",
-    link: "/resume.pdf",
+    link: "",
+    // link: "/resume.pdf",
   },
 ];
 
